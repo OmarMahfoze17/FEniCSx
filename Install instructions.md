@@ -1,3 +1,35 @@
+Install Binary 
+---------------------------------------------
+Following the instruction in https://github.com/FEniCS/dolfinx/blob/main/README.md#docker-images, the package is installed in the vertual environment using conda. To install conda, refere to https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html.
+
+first download either Miniconda or Anaconda's .sh installer file. Run the comands
+
+```bash
+bash Miniconda3-latest-Linux-x86_64.sh
+```
+or 
+```bash
+bash Anaconda-latest-Linux-x86_64.sh
+```
+
+Now creat a conda enviroment **fenicsx-env** and activate it.
+
+```bash 
+conda create -n fenicsx-env
+conda activate fenicsx-env
+conda install -c conda-forge fenics-dolfinx mpich pyvista
+```
+
+PETSc is required. While the **fenicsx-env** is avtivated, use the following command to install
+
+```bash
+conda install petsc petsc4py
+```
+To chech the installation is ready run and hope you do noty get an error!
+
+```bash 
+ python -c "import dolfinx"
+```
 Install dependancies 
 --------------------------------------------- 
 Run the following to install **GNU compiler** and **make** if you do not have them.
