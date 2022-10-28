@@ -30,6 +30,11 @@ To chech the installation is ready run and hope you do noty get an error!
 ```bash 
  python -c "import dolfinx"
 ```
+
+Install from Source
+--------------------------------------------
+
+Not ready for FEniCSx but should work for FEniCS. To be updated due course.
 Install dependancies 
 --------------------------------------------- 
 Run the following to install **GNU compiler** and **make** if you do not have them.
