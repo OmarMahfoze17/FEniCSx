@@ -1,8 +1,8 @@
 Install Binary 
 ---------------------------------------------
-Following the instruction in https://github.com/FEniCS/dolfinx/blob/main/README.md#docker-images, the package is installed in the vertual environment using conda. To install conda, refere to https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html.
+Following the instruction in https://github.com/FEniCS/dolfinx/blob/main/README.md#docker-images, the package is installed in a virtual environment using conda. To install conda, refere to https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html.
 
-first download either Miniconda or Anaconda's .sh installer file. Run the comands
+First download either Miniconda or Anaconda's .sh installer file. Run the comands
 
 ```bash
 bash Miniconda3-latest-Linux-x86_64.sh
